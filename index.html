@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>index</title>
-    
+
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
+
 <body>
- <section id="paragrafy">
-     <p class="zielony">1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident soluta odit in, vero id omnis quae optio deleniti atque porro nam expedita. Praesentium aspernatur ducimus, tempora id, laborum est nemo.</p>
-     <p class="czerwony">2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, culpa fuga dolorum quia, optio nemo inventore. Ducimus tempora dolorem quo quibusdam, eos illum hic quos vitae voluptas, deleniti alias odit.</p>
-     <button class="niebieski">Zamień tło</button>
-     
- </section>
-   
-   
-   
-    <script src="js/index.js"></script>   
+    <section id="paragrafy">
+        <p class="zielony">1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident soluta odit in, vero id omnis quae optio deleniti atque porro nam expedita. Praesentium aspernatur ducimus, tempora id, laborum est nemo.</p>
+        <p class="czerwony">2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, culpa fuga dolorum quia, optio nemo inventore. Ducimus tempora dolorem quo quibusdam, eos illum hic quos vitae voluptas, deleniti alias odit.</p>
+        <button class="niebieski">Zamień tło</button>
+
+    </section>
+
+    <form id="formularz" onsubmit="pobierzImie(event)">
+        Imię: <input type="text" name="fname" value="Krystian">
+        <br> Nazwisko: <input type="text" name="lname" value="Dziopa">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+
+    <script src="js/index.js"></script>
 </body>
+
 </html>

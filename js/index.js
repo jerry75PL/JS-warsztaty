@@ -76,5 +76,16 @@ document.getElementsByClassName('niebieski')[0].onclick = changeColor;
 
 
 
+function alarm(e) {
+    e.preventDefault();
+//    console.log('klik submit');
+console.log(document.getElementsByName('fname')[0].value);
+console.log(document.getElementsByName('lname')[0].value);
+    
+}
+
+document.getElementsByTagName('input')[2].onclick = alarm; 
+
+
 
 
