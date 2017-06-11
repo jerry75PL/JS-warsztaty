@@ -53,10 +53,28 @@
 
 //function changeColor() {
 //    document.getElementsByClassName('czerwony')[0].style.backgroundColor = "green";
+//    document.getElementsByClassName('zielony')[0].style.backgroundColor = "red";
+//}
+
+//function changeColor() {
+//    
+//    document.getElementsByClassName('zielony')[0].className = "czerwony";
+//    document.getElementsByClassName('czerwony')[0].className = "zielony";
 //}
 
 function changeColor() {
-    document.getElementsByClassName('czerwony')[0].className = "zielony";
+
+    document.getElementsByTagName('p')[0].className = "czerwony";
+    document.getElementsByTagName('p')[1].className = "zielony";
 }
 
+var test = document.getElementsByTagName('p');
+console.log(test);
+
 document.getElementsByClassName('niebieski')[0].onclick = changeColor;
+
+
+
+
+
+
