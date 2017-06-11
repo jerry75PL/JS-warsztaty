@@ -6,4 +6,20 @@
     transition: all 0.3s linear;
 }
 
+
 /*my style*/
+
+.zielony {
+    background-color: green;
+    color:aliceblue;
+}
+
+.czerwony {
+    background-color: red;
+    color:aliceblue;
+}
+
+.niebieski {
+    background-color: blue;
+    color:aliceblue;
+}
